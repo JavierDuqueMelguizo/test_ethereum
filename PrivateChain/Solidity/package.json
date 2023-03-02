@@ -1,0 +1,19 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "description": "Workspace to compile solidity contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "smart_contracts",
+    "ethereum"
+  ],
+  "author": "JDM",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.8.19"
+  }
+}

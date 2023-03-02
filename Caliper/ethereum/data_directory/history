@@ -1,0 +1,7 @@
+eth.blockNumber
+eth.accounts
+eth.getBalance(eth.accounts[0])
+miner.stop()
+eth.getBalance(eth.accounts[0])
+miner
+eth.blockNumber
