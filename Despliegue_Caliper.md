@@ -209,7 +209,7 @@ echo -n '{"address":"c0a8e4d217eb85b812aeb1226fab6f588943c2c2","crypto":{"cipher
 ```bash
 mkdir -p ./Caliper/src; cd ./Caliper/src; npm init
 ```
-4. Instalamos el paquete `Claiper Cli` localmente:
+4. Instalamos el paquete `Caliper Cli` localmente:
 ```bash
 npm install @hyperledger/caliper-cli@0.5.0
 ```
@@ -339,7 +339,7 @@ module.exports.createWorkloadModule = createWorkloadModule;
 
 ```
 
-9. Una vez esta too definido, podemos poner el benchmarking a ejecutar de la siguiente forma:
+9. Una vez esta todo definido, podemos poner el benchmarking a ejecutar de la siguiente forma:
 ```bash
 npx caliper launch manager \
     --caliper-bind-sut ethereum:1.3 \
